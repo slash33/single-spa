@@ -8,7 +8,4 @@ import { assetUrl } from 'src/single-spa/asset-url';
 })
 export class AppComponent {
   title = 'app1';
-  yoshiUrl = assetUrl('yoshi.png');
-
-
 }

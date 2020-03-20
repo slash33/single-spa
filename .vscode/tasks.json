@@ -18,18 +18,6 @@
         {
             "type": "npm",
             "script": "start",
-            "path": "navbar/",
-            "problemMatcher": []
-        },
-        {
-            "type": "npm",
-            "script": "start",
-            "path": "root-html-file/",
-            "problemMatcher": []
-        },
-        {
-            "type": "npm",
-            "script": "start",
             "path": "root/",
             "problemMatcher": []
         },
@@ -44,6 +32,12 @@
             "script": "build",
             "path": "header/",
             "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "startAlone",
+            "path": "app1/",
             "problemMatcher": []
         }
     ]
