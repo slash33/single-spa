@@ -1,0 +1,12 @@
+{
+	"name": "root-application",
+	"description": "Application root qui declare les applications filles",
+	"main": "index.js",
+	"scripts": {
+		"start": "serve -s -l 4200"
+	},
+	"devDependencies": {
+		"serve": "^11.1.0"
+	},
+	"dependencies": {}
+}

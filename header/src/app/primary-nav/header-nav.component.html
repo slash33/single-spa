@@ -1,0 +1,25 @@
+ici c'est le header ou on a les menus qui debrancherons vers les applications angular style gestion des chantiers ou gestion des clients.
+c'est une application angular
+<nav>
+  <li>
+    <a routerLink="/">
+      affiche juste le header
+    </a>
+  </li>
+  <li>
+    <a routerLink="/app1">
+      redirige vers l'application 1 sur la route /
+    </a>
+  </li>
+  <li>
+    <a routerLink="/app2">
+      redirige vers l'application 2 sur la route /
+    </a>
+  </li>
+  <li>
+    c'est un test qui permet d'envoyer des données du header vers l'application 2 : appuyer sur le bouton
+    <input type="button" value="Envoie un token = 'fakeToken'" (click)="sendToken()"/>
+  </li>
+</nav>
+
+ici c'est la fin du header
